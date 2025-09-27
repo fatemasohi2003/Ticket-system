@@ -196,7 +196,7 @@ function App() {
 
   return (
     <>
-      {/* Navbar */}
+    
       <div className="navbar bg-base-100 shadow-sm">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -222,10 +222,10 @@ function App() {
 
      
 
-      {/* Main Components */}
+  
       <TicketApp tickets={sampleTickets} />
 
-      {/* Footer */}
+  
       <footer className="bg-black text-gray-300 py-10 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-8 border-b border-gray-700 pb-8">
           <div className="flex-1">

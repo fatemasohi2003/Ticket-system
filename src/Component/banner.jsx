@@ -8,7 +8,7 @@ function Banner({ inProgress, resolved }) {
       className="cards-container"
       style={{ display: "flex", gap: 24, padding: 24 }}
     >
-      {/* In-Progress */}
+ 
       <div
         className="card in-progress"
         style={{
@@ -25,7 +25,7 @@ function Banner({ inProgress, resolved }) {
 
       </div>
 
-      {/* Resolved */}
+     
       <div
         className="card resolved"
         style={{

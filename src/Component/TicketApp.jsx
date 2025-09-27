@@ -23,7 +23,7 @@ function TicketApp({ tickets }) {
 
   return (
     <div className="p-6 grid grid-cols-3 gap-6">
-      {/* Left Side */}
+ 
       <div className="col-span-2">
         <Banner inProgress={inProgress.length} resolved={resolved.length} />
         <div className="grid grid-cols-2 gap-4">
@@ -33,7 +33,7 @@ function TicketApp({ tickets }) {
         </div>
       </div>
 
-      {/* Right Side */}
+     
       <TaskStatus inProgress={inProgress} onComplete={handleComplete} />
     </div>
   );
